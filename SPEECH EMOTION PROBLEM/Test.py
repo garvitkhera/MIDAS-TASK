@@ -64,6 +64,8 @@ class CNN(nn.Module):
         self.fc3 = nn.Linear(64, 5)
 
 
+        
+   # forward function
     def forward(self, x):
         
         output = self.Convolution1(x)
